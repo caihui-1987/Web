@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            background-color:#ccc;
+        }
+        .pagination a{
+            background-color:#fff;
+            display:inline-block;
+            width:30px;
+            height:30px;
+            text-align:center;
+            line-height:30px;
+            text-decoration:none;/*去掉下划线*/
+            border-radius:5px;
+        }
+
+        .pagination .selected,.pagination a:hover{/*类pagination的后代selected 并集类pagination后代伪类选择器hover鼠标悬停*/
+            background-color:blue;
+            color:#fff
+        }
+         
+    </style>
+
+</head>
+<body>
+    <span>雯儿金额可</span>
+    <a href="#">点击我这里！</a>
+    <span>雯儿金额可</span>
+
+    <div class="pagination">
+        <a class="selected">1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>5</a>
+        <a>6</a>
+        <a>7</a>
+        <a>8</a>
+    </div>
+</body>
+</html>

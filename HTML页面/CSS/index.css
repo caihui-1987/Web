@@ -1,0 +1,46 @@
+﻿.class4 {
+    color:yellow;
+    background-color:red;
+    text-align:center;
+    font-size:3em;
+}
+
+a:hover {
+    color:yellow;
+}
+
+a:link{color:green;}
+a:visited{color:gray;}
+
+/*伪元素选择器*/
+/*在strong元素前面加#号*/
+strong::before {
+    content: "#";
+    color: red;
+}
+
+/*在strong元素后面加#号*/
+strong::after {
+    content: "#";
+}
+
+/*交集选择器*/
+/*元素选择器+类选择器+属性选择器交集*/
+p.abc[title="段落"]{
+    color: red;
+    text-align:center;
+}
+
+/*并集选择器*/
+/*用逗号分割*/
+#debug,.blue{font-style:italic}
+
+/*包含选择器*/
+main p{background-color:aquamarine}
+
+/*相邻兄弟选择器*/
+/*改变id为“xd”的后面相邻的p元素的样式*/
+#xd~p{font-size:25px;
+      color:coral;
+}
+

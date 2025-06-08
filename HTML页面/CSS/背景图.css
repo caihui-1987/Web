@@ -1,0 +1,10 @@
+﻿
+div {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid red;
+    background-image: url("../img/沙和尚.png");
+    background-size:cover;/*铺满，contanin-平铺*/
+}
+

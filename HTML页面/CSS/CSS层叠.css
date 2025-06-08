@@ -1,0 +1,9 @@
+﻿a {
+    color: rgb(76,255,0);
+}
+
+.selected{
+    color:#fff;
+    background-color:#000;
+    text-decoration:none;
+}

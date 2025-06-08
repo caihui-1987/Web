@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        a {
+            background-color: red;
+        }
+
+        main div ul li a {
+            background-color: green;
+        }
+
+        main #my-div #my-ul .my-li a {
+            background-color: pink
+        }
+
+        #my-main #my-div #my-ul .my-li .my-a {
+            background-color: brown
+        }
+
+        #my-main #my-div #my-ul .my-li a:link {
+            background-color: gray
+        }
+    </style>
+</head>
+<body>
+    <main id="my-main">
+        <div id="my-div">
+            <ul id="my-ul">
+                <li class="my-li">
+                    <a href="https://www.xxx.com" class="my-a">xxx</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

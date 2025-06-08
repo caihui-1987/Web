@@ -1,0 +1,23 @@
+﻿@page
+@model Web1.Pages.Users.IndexModel
+@{
+}
+<h2>用户列表</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>用户名</th>
+            <th>密码</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+ 3
+ <td>@user.UserName</td>
+                <td>@user.PassWord</td>
+            </tr>
+        }
+    </tbody>
+</table>

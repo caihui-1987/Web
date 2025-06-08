@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--点击地图跳转到四川某个旅游攻略的网站-->
+    <a href="https://www.mafengwo.cn/" target="_blank"> 
+        <img usemap="#scmap" src="四川地图.jpg" alt="这是一张四川旅游地图"/>
+    </a>
+    
+    <map name="scmap">
+        <!--矩形选择框-->
+        <area shape="rect" coords="34,327,91,351" href="http://www.tcmap.com.cn/view/top10/index1478.html" alt="这是德格县" target="_blank">
+        <!--圆形选择框-->
+        <area shape="circle" coords="553,430,25" href="https://www.mafengwo.cn/search/q.php?q=%E6%88%90%E9%83%BD&seid=D22E0777-7AF1-40D2-AD63-7A9040F7C796" alt="这是成都" target="_blank">
+        <!--多边形（三角形）选择框-->
+        <area shape="poly" coords="401,502,381,536,438,535" href="https://www.mafengwo.cn/search/q.php?q=%E9%9B%85%E5%AE%89&seid=C2758CAB-E029-4C37-87B9-236B2A8F05DE" alt="这是雅安" target="_blank">
+    </map>
+
+</body>
+</html>
